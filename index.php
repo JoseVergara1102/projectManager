@@ -14,7 +14,7 @@ $dotenv->load();
 ActiveRecord::setDB(Database::getConnection());
 
 $router = new Router();
-
+ 
 
 
 // Iniciar Sesión
